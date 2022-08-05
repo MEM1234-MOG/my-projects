@@ -1,23 +1,65 @@
-# Compiled class file
-*.class
+import React from 'react';
+import './style.css';
+const RegistrationForm=()=>{
 
-# Log file
-*.log
+    return(
+        <div className="register-screen">
+            <form className="register-screen-form">
+            <h1 className="register-screen-title">ALERT</h1>
+            <h2 className="register-screen-title">COVID-19 IS REAL AND KILLS</h2>
+                <h3 className="register-screen-title">UGANDA VACCINATION COVID-19 REGISTRATION FORM</h3>
+               
+                
+                <div className="form-group">
+                    <label htmlFor="name">First Name</label>
+                    <input type="text" required id="name" placeholder="Enter Your First Name">
+                    </input>
+                </div>
+                <div className="form-group">
+                    <label htmlFor="name">Last Name</label>
+                    <input type="text" required id="name" placeholder="Enter Your Last Name">
+                    </input>
+                </div>
+                <div className="form-group">
+                    <label htmlFor="name">NIN</label>
+                    <input type="text/number" required id="name" placeholder="Enter Your NIN ">
+                    </input>
+                </div>
+                <div className="form-group">
+                    <label htmlFor="name">Date Of Birth</label>
+                    <input type="number/text" required id="name" placeholder="Enter Your Date Of Birth ">
+                    </input>
+                </div>
+                <div className="form-group">
+                    <label htmlFor="name">Vaccine Type</label>
+                    <input type="text" required id="name" placeholder="Enter Your Type Of Vaccine ">
+                    </input>
+                </div>
+                <div className="form-group">
+                    <label htmlFor="name">Date Of Vaccination</label>
+                    <input type="number/text" required id="name" placeholder="Enter Your Type Of Vaccination ">
+                    </input>
+                </div>
+                <div className="form-group">
+                    <label htmlFor="name">District</label>
+                    <input type="text" required id="name" placeholder="Enter Your Home District ">
+                    </input>
+                </div>
+                <div className="form-group">
+                    <label htmlFor="name">Phone Contact</label>
+                    <input type="number" required id="name" placeholder="Enter Your Phone Number ">
+                    </input>
+                </div>
+                <div className="form-group">
+                    <label htmlFor="name">Gender</label>
+                    <input type="text" required id="name" placeholder="Female Or Male ">
+                    </input>
+                </div>
+                
+            </form>
+        </div>
 
-# BlueJ files
-*.ctxt
+    );
+};
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+export default RegistrationForm;
